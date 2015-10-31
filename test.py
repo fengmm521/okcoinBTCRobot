@@ -1,0 +1,1 @@
+#!/usr/bin/env python# -*- coding: utf-8 -*-import pytimerdef timerCallBack(timex):    print timexdef main():      timerx = pytimer.pytimer()    timerx.setTimer(2, timerCallBack)    while(True):        passif __name__ == '__main__':      main()

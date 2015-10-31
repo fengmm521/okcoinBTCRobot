@@ -1,0 +1,17 @@
+[baseconf]  
+access_key=
+secret_key=
+[parameter]
+;价格网格宽度
+step_price=0.5
+;网格等值配置资金
+step_num=0.01
+;跌穿强买币所占总持币的比例
+force_sellpecent=0.1
+[test]
+;当前是测试模式还是实盘交易模式
+istest=1
+;测试模式的基本cny
+tbase_cny=1500.00
+;测试模式的基本btc
+tbase_btc=0.0
