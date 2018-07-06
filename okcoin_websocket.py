@@ -194,8 +194,8 @@ def on_error(self,evt):
 def on_close(self,evt):
     print ('DISCONNECT')
 
-if __name__ == "__main__":
-    url = "wss://real.okcoin.com:10440/websocket/okcoinapi"      #if okcoin.cn  change url wss://real.okcoin.cn:10440/websocket/okcoinapi
+def main():
+    url = 'wss://real.okex.com:10440/websocket/okexapi'
 #     api_key='your api_key which you apply'
 #     secret_key = "your secret_key which you apply"
 
@@ -215,3 +215,7 @@ if __name__ == "__main__":
     
     print 'xxx'
     ws.run_forever()
+
+if __name__ == "__main__":
+    # url = "wss://real.okcoin.com:10440/websocket/okcoinapi"      #if okcoin.cn  change url wss://real.okcoin.cn:10440/websocket/okcoinapi
+    
